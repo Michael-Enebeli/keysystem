@@ -1,0 +1,161 @@
+.process {
+  margin: 0 auto;
+  color: #ddd;
+  padding: 40px 20px 0 20px;
+  background: linear-gradient(180deg, rgba(3, 2, 10, 0) 0%, #020106 26.32%, #03020A 89.86%, rgba(3, 2, 10, 0) 98.27%);
+}
+
+.processes {
+  margin: 0 auto;
+  color: #ddd;
+  max-width: 850px;
+}
+
+.processes>h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.processes h2+p {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 400;
+  opacity: 0.85;
+  width: 100%;
+}
+
+.strategy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+  position: relative;
+  background: linear-gradient(91.44deg, #04050B 38.57%, #181B4D 118.56%);
+  height: 180px;
+  padding: 10px 0 10px 20px;
+  border-radius: 10px;
+}
+
+.strategy::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/images/cube.png") center/cover no-repeat;
+  filter: grayscale(100%) brightness(0.8);
+  opacity: 0.085;
+  z-index: 0;
+}
+
+.strategy h3 {
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+
+.strategy p {
+  font-size: 0.8rem;
+  padding: 0 10px 10px 0;
+}
+
+.strategy img {
+  display: none;
+}
+
+@media (min-width: 720px) {
+  .strategy::before {
+    background: none;
+  }
+
+  .strategy img {
+    max-width: 300px;
+    height: auto;
+    filter: grayscale(100%) brightness(0.8);
+    display: inline;
+  }
+}
+
+.bottom-cards {
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-inline: auto;
+}
+
+.box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+  flex: 1;
+  min-width: 0;
+  margin-top: 20px;
+  position: relative;
+  background: linear-gradient(106.16deg, #03040A 16.65%, #12153A 95.93%);
+}
+
+
+.box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/images/handshake.png") center/cover no-repeat;
+  filter: grayscale(100%) brightness(0.8);
+  opacity: 0.085;
+  z-index: 0;
+}
+
+
+.box .text {
+  flex: 1;
+}
+
+.bottom-cards h3 {
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+
+.bottom-cards p {
+  font-size: 0.85rem;
+  padding: 0 10px 10px 0;
+}
+
+.box img {
+  width: 130px;
+  height: auto;
+  flex-shrink: 0;
+  display: none;
+}
+
+.strategy-card::before {
+  background: url("/images/check.png") center/cover no-repeat;
+}
+
+@media (min-width: 720px) {
+  .box img {
+    display: inline;
+  }
+
+  .bottom-cards {
+    display: flex;
+  }
+
+  .box::before {
+    background: none;
+  }
+}
+
+
+.strategy-card img[alt="image of a check-icon"] {
+  transform: translateY(10px) translateX(20px);
+  filter: grayscale(100%) brightness(0.8);
+  width: 160px;
+}
+
+.processes img[alt="image of a handshake"] {
+  transform: rotate(-60deg) translateX(-40px);
+  filter: grayscale(100%) brightness(0.8);
+}

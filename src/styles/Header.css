@@ -1,0 +1,134 @@
+header {
+    position: relative;
+    width: 100%;
+    color: #fff;
+    padding-bottom: 5%;
+    background: linear-gradient(45deg, #05071E 60.58%, #000080 85%, #111A89 90.72%);
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("/images/wall.png") center/cover no-repeat;
+    opacity: 0.07;
+    z-index: 0;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 7% 1rem 15% 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.welcome {
+    font-size: 0.8rem;
+    margin: 20px auto;
+    display: block;
+    border-radius: 12px;
+    border: 1px solid white;
+    padding: 6px;
+    background: #2E6D9C;
+    z-index: -1;
+    width: 170px;
+}
+
+.main-heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.sub-heading {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-buttons .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.hero-buttons .get-started {
+    background: linear-gradient(90deg, #000080 -10%, #4169E1 52.62%, #000080 114%);
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.hero-buttons .get-started:hover {
+    box-shadow: 0 0 20px #4169E1;
+    animation: pulse 0.5s infinite;
+  }
+  
+
+.hero-buttons .learn-more {
+    background-color: transparent;
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #4169E1;
+}
+.hero-buttons .learn-more:hover {
+  box-shadow: 0 0 20px #4169E1;
+  animation: pulse 0.5s infinite;
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+    .hero-buttons .btn {
+        cursor: pointer;
+    }
+}
+
+.hero-images {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin-top: 5%;
+    padding: 0px;
+}
+
+.vector-image {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+@media (max-width: 650px) {
+    .vector-image {
+        display: none;
+    }
+}
+
+.man-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 2;
+    border: 10px solid #FFFFFF2E;
+    border-radius: 25px;
+}

@@ -1,0 +1,133 @@
+.cert-container {
+    background-color: #030322;
+    padding: 60px 0.25rem;
+    padding-bottom: 0;
+    margin: 60px auto;
+    margin-bottom: 0;
+    background: linear-gradient(180deg, rgba(3, 2, 10, 0) 0%, #020106 26.32%, #03020A 89.86%, rgba(3, 2, 10, 0) 98.27%);
+}
+
+.certification {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.certification h2 {
+    font-size: 1.4rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.certification p {
+    margin: 0 auto;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.certification button {
+    border: 2px solid #4169E1;
+    box-shadow: 0px 4px 17.9px 0px #4169E18C;
+    background: linear-gradient(90deg, #000080 -10%, #4169E1 52.62%, #000080 114%);
+    border-radius: 37px;
+    border-width: 2px;
+    padding: 15px 25px;
+    color: #fff;
+    margin-bottom: 100px;
+    transition: all 0.3s ease;
+}
+
+.certification button:hover {
+    box-shadow: 0 0 25px #4169E1;
+    animation: pulse 0.5s infinite;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .certification button {
+        cursor: pointer;
+    }
+}
+
+.certification-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.7rem;
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+.certification-logos img {
+    max-width: 120px;
+    object-fit: contain;
+}
+
+.trust-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 800px;
+}
+
+.last-row {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+.trust-logos img {
+    width: 130px;
+    height: 100px;
+    border: 1px solid #464343;
+    background: white;
+    border-radius: 8px;
+}
+
+@media (min-width: 1024px) {
+    .trust-logos {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+    }
+    .certification h2 {
+        font-size: 2rem;
+    }
+    .trust-logos img {
+        width: 165px;
+        height: 100px;
+    }
+
+    .trust-logos img:nth-child(11) {
+        grid-column: auto;
+    }
+
+    .certification img[alt="Sterling-logo"] {
+        object-fit: cover;
+    }
+
+    .trust-logos img:nth-child(9),
+    .trust-logos img:nth-child(10),
+    .trust-logos img:nth-child(11) {
+        justify-self: center;
+    }
+
+    .last-row {
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-top: 20px;
+    }
+}

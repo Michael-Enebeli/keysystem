@@ -1,0 +1,23 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+    background: #090a27;
+    padding: 25px 0;
+}
+
+.slider {
+    display: flex;
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+}
+
+.slider img {
+    width: 250px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+    flex-shrink: 0;
+    user-select: none;
+    pointer-events: none;
+}

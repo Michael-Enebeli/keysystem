@@ -1,0 +1,91 @@
+article {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    color: white;
+}
+
+article span {
+    display: block;
+    max-width: 400px;
+    margin: 1rem auto;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    width: 100%;
+}
+
+article span + p {
+    font-size: 0.8rem;
+    max-width: 580px;
+    margin: 1rem auto;
+    opacity: 0.8;
+    width: 100%;
+}
+
+@media (min-width: 720px) {
+article span + p {
+     text-align: justify;
+     text-align-last: center;
+    }
+}
+article .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+@media (min-width: 720px) {
+    article .cards {
+        flex-direction: row;
+    }
+
+    article .card {
+        flex: 1;
+    }
+}
+
+.represent .card {
+    margin-top: 2rem;
+    max-width: 400px;
+    max-height: 375px;
+    border-radius: 10px;
+    border: 1px solid #01B4DE;
+    background: linear-gradient(45deg, #05071E 60.58%, #000080 85%, #111A89 90.72%);
+}
+
+.represent img {
+    width: 300px;
+    height: 300px;
+    transform: translate(-50px, -50px);
+    margin: 0%;
+    filter: grayscale(100%) brightness(0.8);
+    display: block;
+    margin: 0 auto;
+    padding-left: 20%;
+}
+
+.represent img[alt="Vision Icon"] {
+    transform: rotate(-1deg);
+    transform: translateY(-50px);
+}
+
+article h3 {
+    transform: translateY(-100px);
+    text-align: left;
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.7rem;
+    padding: 0 0 3% 5%;
+}
+
+article div p {
+    transform: translateY(-100px);
+    text-align: left;
+    margin: 0;
+    padding: 0 5%;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
