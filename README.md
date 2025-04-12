@@ -8,7 +8,7 @@ The site communicates KeySystem's mission to bridge the gap between technology a
 
 ## Live Demo
 
-👉 [Visit the Website](https://keysytems.vercel.app)
+👉 [Visit the Website](https://keysystems.vercel.app)
 
 ## Technologies Used
 
@@ -49,6 +49,6 @@ To run the project locally:
 
 4. Open your browser and go to `http://localhost:5173`
 
-Or view the live website here: [KeySystem Website](https://keystems.vercel.app)
+Or view the live website here: [KeySystem Website](https://keysystems.vercel.app)
 
 ## Developed by [Michael Enebeli](https://www.michaelenebeli.com.ng)
