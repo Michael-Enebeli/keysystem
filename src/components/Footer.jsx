@@ -100,11 +100,11 @@ const Footer = () => {
           </div>
           <div className="info-block">
             <h3>Email</h3>
-              <a href="mailto:info@keysystem.com">enquiries@keysystem.com</a>
+              <a href="mailto:chukwudienebeli81@gmail.co">chukwudienebeli81@gmail.com</a>
           </div>
-          <div className="info-block invisible">
-            <h3>invisble </h3>
-            <a> Not visible on the UI </a>
+          <div className="info-block myself">
+            <h3> Developer </h3>
+            <a href="https://www.michaelenebeli.com.ng"> Michael Enebeli </a>
           </div>
         </div>
       </div>

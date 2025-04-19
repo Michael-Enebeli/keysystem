@@ -212,10 +212,8 @@ footer a:hover {
     opacity: 1;
   }
 
-.invisible,
-.invisible h3,
-.invisible a {
-    font-size: 0rem;
+.myself a {
+    text-decoration: underline;
 }
 
 footer a {
