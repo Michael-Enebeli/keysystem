@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
           <div className="info-block myself">
             <h3> Developer </h3>
-            <a href="https://www.michaelenebeli.com.ng"> Michael Enebeli </a>
+            <a href="https://www.michaelenebeli.com.ng" target="blank"> Michael Enebeli </a>
           </div>
         </div>
       </div>
