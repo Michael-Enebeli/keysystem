@@ -100,7 +100,7 @@ const Footer = () => {
           </div>
           <div className="info-block">
             <h3>Email</h3>
-              <a href="mailto:chukwudienebeli81@gmail.co">chukwudienebeli81@gmail.com</a>
+              <a href="mailto:chukwudienebeli81@gmail.com">chukwudienebeli81@gmail.com</a>
           </div>
           <div className="info-block myself">
             <h3> Developer </h3>
