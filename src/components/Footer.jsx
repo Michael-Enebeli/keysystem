@@ -72,15 +72,15 @@ const Footer = () => {
         <div className="other-locations">
           <div className="country">
             <h3>United Kingdom</h3>
-            <a href="tel:+441619481444">tel: +44 161 948 1444</a>
+            <a href="#tel:+441619481444">tel: +44 161 948 1444</a>
           </div>
           <div className="country">
             <h3>United Arab Emirates</h3>
-            <a href="tel:+971504238817">tel: +971 50 423 8817</a>
+            <a href="#tel:+971504238817">tel: +971 50 423 8817</a>
           </div>
           <div className="country">
             <h3>Canada</h3>
-            <a href="tel:+16479771435">tel: +1 647 977 1435</a>
+            <a href="#tel:+16479771435">tel: +1 647 977 1435</a>
           </div>
         </div>
       </div>
